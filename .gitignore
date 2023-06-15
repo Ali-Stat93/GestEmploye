@@ -1,0 +1,9 @@
+.classpath
+*.class
+*.iml
+target/
+.idea/
+src/**/resources/*.*
+src/**/resources/data/
+
+
