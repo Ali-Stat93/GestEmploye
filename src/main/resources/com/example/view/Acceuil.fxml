@@ -6,8 +6,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<BorderPane
+            fx:id="Parent"
+            xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.controler.EmployeControler"
             prefHeight="400.0" prefWidth="600.0">
-
-</AnchorPane>
+    <center>
+        <Button fx:id="clickBtn" text="hello" onAction="#sayHi"/>
+    </center>
+</BorderPane>

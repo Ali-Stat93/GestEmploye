@@ -2,5 +2,8 @@ module com.example {
     requires javafx.controls;
     requires javafx.fxml;
 
-    exports com.example;
+
+    opens com.example;
+    opens com.example.controler to javafx.fxml;
+    opens com.example.model to javafx.base;
 }
